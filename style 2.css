@@ -25,8 +25,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding-top: 10px;
-  background-color: #000000;
-  opacity: 80%;
+  background-color: #ffc78b24;
 }
 
 .logo {
@@ -59,10 +58,6 @@ a {
   display: block;
   text-align: center;
   padding: 10px;
-}
-
-.nav__link a:hover {
-  background-color: lightcoral;
 }
 
 .hide {
@@ -188,30 +183,30 @@ video {
   min-height: 105vh;
   padding-top: 50px;
   display: grid;
-  background-color: #1d2229;
+  background-color: #ffc78b24;
   font-family: 'Bebas Neue', cursive;
   font-family: 'Rubik', sans-serif;
   grid:
     "sidebar body4" 1fr / 50% 50%;
   gap: 8px;
   size: cover;
+  padding-left: 45px;
 }
 
 
 .body4 {
   text-align: center;
-  color: white;
+  color:black;
 }
 
 .sidebar {
   grid-area: sidebar;
   height: 85vh;
-  background-color: #1d2229;
 
 }
 
 #quiche {
-  background-image: url(images/quiche.jpg);
+  background-image: url(quiche.jpg);
   background-size: cover;
 }
 .body {
@@ -230,6 +225,7 @@ font-family: 'Rubik', sans-serif;
   grid:
     "body5 sidebar" 1fr / 50% 50%;
   gap: 8px;
+  padding-right: 45px;
 }
 
 .sidebar1 {
@@ -241,13 +237,14 @@ font-family: 'Rubik', sans-serif;
   background-size: cover;
  padding: 15px;
  height: 600px;
+ background-image: url(ricotta.jpg);
 
 
 }
 
 #roast {
   
-  background-image: url(images/roast.jpg);
+  background-image: url(roast.jpg);
   background-size: cover;
 
 }
@@ -271,6 +268,7 @@ font-family: 'Rubik', sans-serif;
   .nav__link a {
     display: inline-block;
     padding: 15px 20px;
+    color: #370511;
   }
 
   .hamburger {

@@ -206,12 +206,11 @@ video {
 .sidebar {
   grid-area: sidebar;
   height: 85vh;
-  background-color: #1d2229;
 
 }
 
 #quiche {
-  background-image: url(images/quiche.jpg);
+  background-image: url(quiche.jpg);
   background-size: cover;
 }
 .body {
@@ -241,13 +240,14 @@ font-family: 'Rubik', sans-serif;
   background-size: cover;
  padding: 15px;
  height: 600px;
+ background-image: url(ricotta.jpg);
 
 
 }
 
 #roast {
   
-  background-image: url(images/roast.jpg);
+  background-image: url(roast.jpg);
   background-size: cover;
 
 }
