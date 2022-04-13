@@ -6,7 +6,7 @@
   box-sizing: border-box;
 
 }
-
+/*css code*/ 
 body {
   font-family: sans-serif;
 }
@@ -187,16 +187,31 @@ video {
   font-family: 'Bebas Neue', cursive;
   font-family: 'Rubik', sans-serif;
   grid:
-    "sidebar body4" 1fr / 50% 50%;
+    "sidebar body4"1fr / 50% 50%;
   gap: 8px;
-  size: cover;
+  background-size: cover;
+  padding-left: 45px;
+}
+
+#sec-4 {
+  width: 100%;
+  min-height: 105vh;
+  padding-top: 50px;
+  display: grid;
+  background-color: #ffc78b24;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Rubik', sans-serif;
+  grid:
+    "sidebar body4"1fr / 50% 50%;
+  gap: 8px;
+  background-size: cover;
   padding-left: 45px;
 }
 
 
 .body4 {
   text-align: center;
-  color:black;
+  color: black;
 }
 
 .sidebar {
@@ -209,6 +224,7 @@ video {
   background-image: url(quiche.jpg);
   background-size: cover;
 }
+
 .body {
   grid-area: body;
 }
@@ -221,9 +237,9 @@ video {
   display: grid;
   padding-top: 50px;
   font-family: 'Bebas Neue', cursive;
-font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik', sans-serif;
   grid:
-    "body5 sidebar" 1fr / 50% 50%;
+    "body5 sidebar"1fr / 50% 50%;
   gap: 8px;
   padding-right: 45px;
 }
@@ -235,15 +251,15 @@ font-family: 'Rubik', sans-serif;
 
 #ricotta {
   background-size: cover;
- padding: 15px;
- height: 600px;
- background-image: url(ricotta.jpg);
+  padding: 15px;
+  height: 600px;
+  background-image: url(ricotta.jpg);
 
 
 }
 
 #roast {
-  
+
   background-image: url(roast.jpg);
   background-size: cover;
 
@@ -275,4 +291,3 @@ font-family: 'Rubik', sans-serif;
     display: none;
   }
 }
-

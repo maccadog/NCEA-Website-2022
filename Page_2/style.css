@@ -1,3 +1,5 @@
+ /*css code*/ 
+
 :root {
   --dl-size-size-large: 144px;
   --dl-size-size-small: 48px;
@@ -30,14 +32,16 @@
  
 }
 .button {
-  color: #370511;
-  cursor: pointer;
-  display: inline-block;
-  padding: 12px 24px;
-  border-color:#370511;
-  border-width: 2px;
-  border-radius: 32px;
-  background-color:  #FFFFFF;
+  color: white;
+    cursor: pointer;
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 50px;
+    background-color: #370511;
+    padding-right: 2em;
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+    padding-left: 2em;
 }
 .input {
   color:  #0c4237ff;
